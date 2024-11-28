@@ -1,1 +1,3 @@
 # Predicts-Molecular-Structures-from-NMR-Spectra
+
+Deep Learning model that predicts molecular structures based on NMR spectra and molecular formulas as inputs. The model was primarily trained by dividing it into a SMILES autoencoder and an NMR encoder. The final model was created by connecting the NMR encoder with the SMILES decoder. After training the model, testing results showed that most of the generated SMILES were grammatically invalid, and the valid ones were mainly composed of carbon (C). The results are expected to be improved by adding more data, tuning parameters, and modifying the model.
